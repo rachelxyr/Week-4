@@ -1,1 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 
+header{
+    background-color: #cc5803;
+    grid-column: 1/13; /* can also be 1/-1 */
+}
+
+nav{
+    background-color: #f7934c;
+    grid-column: 1/4; 
+}
+
+main{
+    background-color: #f7b05b;
+    grid-column: 4/8;
+}
+
+aside{
+    background-color: #ffc15e;
+    grid-column: 8/13;
+}
+
+footer{
+    background-color: #ffe0af;
+    grid-column: 1/-1; /*1/13*/
+}
+
+h1{
+    padding: 20px;
+}
+
+body{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
